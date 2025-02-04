@@ -7,16 +7,14 @@ export default function Header() {
   };
 
   return (
-    <section className="block w-screen mb-20 md:w-auto">
-      <h1 className="text-7xl text-center font-bold font-display uppercase md:text-left">
+    <section className="block mb-20">
+      <h1 className="text-7xl font-bold font-display uppercase">
         {headerContent.title}
       </h1>
-      <h1 className="text-3xl text-center font-display uppercase mb-10 md:text-left">
+      <h1 className="text-3xl font-display uppercase mb-10">
         {headerContent.subTitle}
       </h1>
-      <p className="text-wrap text-center md:w-3/4 md:text-left">
-        {headerContent.description}
-      </p>
+      <p className="text-wrap w-3/4">{headerContent.description}</p>
     </section>
   );
 }

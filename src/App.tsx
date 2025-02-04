@@ -7,7 +7,7 @@ import Projects from "./Components/Projects";
 function App() {
   return (
     <>
-      <div className="relative mx-auto pt-24 h-max w-[50rem]">
+      <div className="relative w-auto mx-5 md:mx-auto pt-24 h-max md:w-[50rem]">
         <Header />
         <Contact />
         <Career />
